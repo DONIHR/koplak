@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          token: ${{ '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' }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Install Bun
       - name: Use Bun
